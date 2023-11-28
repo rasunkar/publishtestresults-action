@@ -1,5 +1,5 @@
 name: "publishtestresults-action"
-description: "Publish test results to Azure Pipelines"
+description: "Publish test results to Azure DevOps Test Store"
 inputs:
   testResultsFormat:
     description: "Test Results Format"

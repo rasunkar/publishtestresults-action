@@ -1,0 +1,32 @@
+{
+    "name": "publishtestresults-action",
+    "version": "1.0.0",
+    "description": "This action is similar to Publish Test Results task in ADO. It will take either JUNIT or TRX file as input and upload results to a store.",
+    "main": "index.js",
+    "scripts": {
+        "build": "ncc build src/index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/rasunkar/publishtestresults.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/rasunkar/publishtestresults/issues"
+    },
+    "homepage": "https://github.com/rasunkar/publishtestresults#readme",
+    "dependencies": {
+        "@actions/core": "^1.10.1",
+        "@actions/github": "^6.0.0",
+        "@vercel/ncc": "^0.38.1",
+        "adm-zip": "^0.5.10",
+        "glob": "^10.3.10",
+        "shell": "^0.5.1",
+        "shelljs": "^0.8.5",
+        "superagent": "^8.1.2",
+        "uuid": "^9.0.1"
+    }
+}
