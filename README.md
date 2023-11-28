@@ -27,7 +27,7 @@ jobs:
           searchFolder: ./tests/
           runInParallel: true
       - name: Publish Test Results
-        uses: rasunkar/publishtestresults@v1.0.0-beta
+        uses: rasunkar/publishtestresults-action@v1.0.0-beta
         id: PublishTestResults
         with:
             testResultsFormat: 'VSTest'
