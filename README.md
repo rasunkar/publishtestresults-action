@@ -27,7 +27,7 @@ jobs:
           searchFolder: ./tests/
           runInParallel: true
       - name: Publish Test Results
-        uses: ./.github/actions/publishtestresults-action # Uses an action in the root directory
+        uses: rasunkar/publishtestresults@v1.0.0-beta
         id: PublishTestResults
         with:
             testResultsFormat: 'VSTest'
